@@ -2,9 +2,10 @@ import react from "react";
 
 function Links(props){
     return(
-        <div>
+        <div id="links">
         <h3>Links</h3>
-        <a href= {props.Links}>Click me</a>
+        <a href= {props.github}>Github</a>
+        <a href= {props.linkedin}>Linkedin</a>
         </div>
     )
 }
